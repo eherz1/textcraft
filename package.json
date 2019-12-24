@@ -1,0 +1,24 @@
+{
+  "name": "textcraft",
+  "version": "0.0.1",
+  "author": "Erich Herz <erichh@gmail.com>",
+  "description": "A sandbox MUD (multi-user dungeon)",
+  "repository": {
+    "type": "git",
+    "url": "git@bitbucket.org:norberg1/textcraft.git"
+  },
+  "dependencies": {
+    "async": "*",
+    "coffee-script": "*",
+    "mongodb": "*",
+    "mongoose": "*",
+    "winston": "*",
+    "forever": "*"
+  },
+  "scripts": {
+    "start": "coffee src/coffee/Main.coffee -n"
+  },
+  "devDependencies": {
+    "gulp-nodemon": "^2.0.6"
+  }
+}
